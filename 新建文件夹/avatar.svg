@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景圆形 -->
+    <circle cx="90" cy="90" r="88" fill="#fff" stroke="#ffd1dc" stroke-width="2"/>
+    
+    <!-- 星星主体 -->
+    <path d="M90 20L110 70L160 70L120 100L140 150L90 120L40 150L60 100L20 70L70 70L90 20Z" fill="#ffd700"/>
+    
+    <!-- 星星光晕效果 -->
+    <circle cx="90" cy="90" r="40" fill="#fff" opacity="0.2"/>
+    
+    <!-- 星星装饰 -->
+    <circle cx="90" cy="90" r="5" fill="#fff"/>
+    <circle cx="90" cy="90" r="3" fill="#ffd700"/>
+    
+    <!-- 星星眼睛 -->
+    <circle cx="80" cy="85" r="3" fill="#2b1055"/>
+    <circle cx="100" cy="85" r="3" fill="#2b1055"/>
+    
+    <!-- 星星嘴巴 -->
+    <path d="M85 95C85 95 87 100 90 100C93 100 95 95 95 95" stroke="#2b1055" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- 装饰性光点 -->
+    <circle cx="70" cy="70" r="2" fill="#fff" opacity="0.8"/>
+    <circle cx="110" cy="70" r="2" fill="#fff" opacity="0.8"/>
+    <circle cx="70" cy="110" r="2" fill="#fff" opacity="0.8"/>
+    <circle cx="110" cy="110" r="2" fill="#fff" opacity="0.8"/>
+</svg>

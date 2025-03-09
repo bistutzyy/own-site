@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>专业学习 - Smart Grid Portfolio</title>
+    <link rel="stylesheet" href="../css/theme.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <style>
+    /* 媒体查询：适配手机端 */
+    @media (max-width: 768px) {
+        .page-container {
+            padding: 1rem; /* 减少内边距 */
+        }
+
+        .grid-layout {
+            grid-template-columns: 1fr; /* 单列布局 */
+        }
+
+        .content-card {
+            margin-bottom: 1rem; /* 增加内容卡片之间的间距 */
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="page-container">
+        <div class="page-title">
+            <h1>专业学习</h1>
+            <p class="page-subtitle">电力系统分析与智能电网技术学习记录</p>
+        </div>
+
+        <div class="grid-layout" style="grid-template-columns: 1fr 2fr;">
+            <!-- 左侧课程列表 -->
+            <div class="content-card">
+                <h2>核心课程</h2>
+                <div class="course-list">
+                    <div class="course-item">
+                        <h3>电路分析</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                        <div class="tag-container">
+                            <span class="tag">基础课程</span>
+                            <span class="tag">95分</span>
+                        </div>
+                    </div>
+                    <!-- 更多课程项目 -->
+                </div>
+            </div>
+
+            <!-- 右侧技能图表 -->
+            <div class="content-card">
+                <h2>专业技能</h2>
+                <canvas id="skillsChart"></canvas>
+            </div>
+        </div>
+
+        <!-- 学习成果展示 -->
+        <div class="grid-layout" style="grid-template-columns: repeat(3, 1fr); margin-top: 2rem;">
+            <div class="content-card achievement">
+                <div class="icon">📚</div>
+                <h3>课程成绩</h3>
+                <p>专业排名前10%</p>
+            </div>
+            <!-- 更多成果卡片 -->
+        </div>
+    </div>
+    <script src="../js/particles-config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/academic.js"></script>
+</body>
+</html>

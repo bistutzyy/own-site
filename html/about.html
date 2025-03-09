@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我 - 个人档案</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <link rel="stylesheet" href="../css/subpage-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <!-- 左侧个人信息 -->
+        <div class="left-panel">
+            <div class="profile-image">
+                <div class="avatar-placeholder">
+                    <img src="../avatar.svg" alt="个人头像">
+                </div>
+            </div>
+            <div class="profile-info">
+                <h2>桃之夭夭</h2>
+                <div class="tags">
+                    <span class="tag">软工1班</span>
+                    <span class="tag">大一</span>
+                    <span class="tag">共青团员</span>
+                </div>
+                <div class="quick-stats">
+                    <div class="stat">
+                        <span class="number">XX大学</span>
+                        <span class="label">学校</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">软件工程</span>
+                        <span class="label">专业</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" target="_blank" class="social-icon qq" title="QQ" onclick="showQQImage(event)">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8.5,13.5A1.5,1.5 0 0,1 7,12A1.5,1.5 0 0,1 8.5,10.5A1.5,1.5 0 0,1 10,12A1.5,1.5 0 0,1 8.5,13.5M15.5,13.5A1.5,1.5 0 0,1 14,12A1.5,1.5 0 0,1 15.5,10.5A1.5,1.5 0 0,1 17,12A1.5,1.5 0 0,1 15.5,13.5M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4Z"/>
+                        </svg>
+                    </a>
+                    <a href="https://space.bilibili.com/1061280173?spm_id_from=333.1007.0.0" target="_blank" class="social-icon bilibili" title="哔哩哔哩">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.813 4.653h.854c1.51.054 2.769.578 3.773 1.574 1.004.995 1.524 2.249 1.56 3.76v7.36c-.036 1.51-.556 2.769-1.56 3.773s-2.262 1.524-3.773 1.56H5.333c-1.51-.036-2.769-.556-3.773-1.56S.036 18.858 0 17.347v-7.36c.036-1.511.556-2.765 1.56-3.76 1.004-.996 2.262-1.52 3.773-1.574h.774l-1.174-1.12a1.234 1.234 0 0 1-.373-.906c0-.356.124-.658.373-.907l.027-.027c.283-.249.585-.373.907-.373.322 0 .624.124.907.373L9.653 4.44c.071.071.134.142.187.213h4.267a.836.836 0 0 1 .16-.213l2.853-2.747c.283-.249.585-.373.907-.373.322 0 .624.124.907.373.249.249.373.551.373.907 0 .355-.124.657-.373.906zM5.333 7.24c-.746.018-1.373.276-1.88.773-.506.498-.769 1.13-.786 1.894v7.52c.017.764.28 1.395.786 1.893.507.498 1.134.756 1.88.773h13.334c.746-.017 1.373-.275 1.88-.773.506-.498.769-1.129.786-1.893v-7.52c-.017-.765-.28-1.396-.786-1.894-.507-.497-1.134-.755-1.88-.773zM8 11.107c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96v-1.173c0-.373.129-.689.387-.947.258-.258.574-.387.946-.387zm8 0c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96v-1.173c0-.373.129-.689.387-.947.258-.258.574-.387.946-.387z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.xiaohongshu.com/user/profile/67c80407000000000e011b07?tab=note&subTab=note" target="_blank" class="social-icon xiaohongshu" title="小红书">
+                        <span style="font-size: 24px; font-weight: bold; color: #ff2442;">红</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 右侧内容展示 -->
+        <div class="right-panel">
+            <div class="nav-card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
+                </div>
+                <h3>教育背景</h3>
+                <div class="timeline-content">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024-至今</div>
+                        <div class="timeline-details">
+                            <h4>XX大学</h4>
+                            <p>软件工程专业</p>
+                            <ul>
+                                <li>主修课程：Java，C++，Python</li>
+                                <li>专业排名：暂居前列</li>
+                                <li>获得过许多奖项</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                    </svg>
+                </div>
+                <h3>个人特长</h3>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>数学建模</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>编程开发</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>数据分析</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                    </svg>
+                </div>
+                <h3>个人项目</h3>
+                <div class="project-list">
+                    <div class="project-item">
+                        <h4>桃之夭夭的导航站</h4>
+                        <p>一个个性化的导航站点，集成了常用工具、学习资源和娱乐网站。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <h4>个人技术博客</h4>
+                        <p>基于Hexo框架搭建的个人技术博客，用于分享学习笔记和技术心得。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Hexo</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Markdown</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/>
+                        <path d="M12 6v6l4 2"/>
+                    </svg>
+                </div>
+                <h3>个人简介</h3>
+                <div class="bio-content">
+                    <p>我是一名软件工程专业的大一学生，对编程和软件开发充满热情。在学习过程中，我注重理论与实践的结合，积极参与各类竞赛和项目开发。我的座右铭是"须知少日拏云志，曾许人间第一流"，这激励着我不断追求进步。</p>
+                    <p>在专业学习方面，我擅长数学建模和编程开发，对数据分析和人工智能领域有浓厚的兴趣。课余时间，我喜欢参与开源项目，分享技术经验，同时也热衷于参加各类学术竞赛和创新创业活动。</p>
+                </div>
+            </div>
+
+            <div class="nav-card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/>
+                        <path d="M12 6v6l4 2"/>
+                    </svg>
+                </div>
+                <h3>社会实践</h3>
+                <div class="timeline-content">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024年</div>
+                        <div class="timeline-details">
+                            <h4>志愿服务</h4>
+                            <ul>
+                                <li>社区教育辅导</li>
+                                <li>科技知识普及</li>
+                                <li>环保公益活动</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/>
+                        <path d="M12 6v6l4 2"/>
+                    </svg>
+                </div>
+                <h3>兴趣爱好</h3>
+                <div class="hobby-list">
+                    <div class="hobby-item">
+                        <h4>阅读</h4>
+                        <p>热爱阅读各类书籍，特别是科技、文学和历史类作品。</p>
+                    </div>
+                    <div class="hobby-item">
+                        <h4>运动</h4>
+                        <p>喜欢篮球、游泳等运动，保持健康的生活方式。</p>
+                    </div>
+                    <div class="hobby-item">
+                        <h4>摄影</h4>
+                        <p>用镜头记录生活，分享美好瞬间。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showQQImage(event) {
+            event.preventDefault();
+            const img = document.createElement('img');
+            img.src = 'https://tzyy-1330068502.cos.ap-beijing.myqcloud.com/e4aaeabc279cfc6f7d7f8b299f737c5.jpg';
+            img.style.maxWidth = '300px';
+            img.style.maxHeight = '300px';
+            img.style.borderRadius = '8px';
+            img.style.boxShadow = '0 4px 8px rgba(0,0,0,0.2)';
+            
+            const modal = document.createElement('div');
+            modal.style.position = 'fixed';
+            modal.style.top = '0';
+            modal.style.left = '0';
+            modal.style.width = '100%';
+            modal.style.height = '100%';
+            modal.style.backgroundColor = 'rgba(0,0,0,0.5)';
+            modal.style.display = 'flex';
+            modal.style.justifyContent = 'center';
+            modal.style.alignItems = 'center';
+            modal.style.zIndex = '1000';
+            
+            modal.appendChild(img);
+            document.body.appendChild(modal);
+            
+            modal.onclick = function() {
+                document.body.removeChild(modal);
+            };
+        }
+    </script>
+</body>
+</html> 

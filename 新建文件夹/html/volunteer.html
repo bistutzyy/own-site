@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>志愿服务 - Smart Grid Portfolio</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <style>
+    /* 媒体查询：适配手机端 */
+    @media (max-width: 768px) {
+        .page-container {
+            padding: 1rem; /* 减少内边距 */
+        }
+
+        .grid-layout {
+            flex-direction: column; /* 垂直排列项目 */
+        }
+
+        .content-card {
+            margin-bottom: 1rem; /* 增加内容卡片之间的间距 */
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="page-container">
+        <div class="page-title">
+            <h1>志愿服务</h1>
+            <p class="subtitle">能源科普与节能减排宣传</p>
+        </div>
+
+        <div class="grid-layout">
+            <div class="content-card">
+                <h2>志愿活动</h2>
+                <div class="volunteer-list">
+                    <div class="volunteer-item">
+                        <h3>能源科普进社区</h3>
+                        <p>在社区开展智能电网和新能源知识科普活动</p>
+                        <div class="volunteer-info">
+                            <span class="hours">20小时</span>
+                            <span class="date">2024.03</span>
+                        </div>
+                    </div>
+                    <div class="volunteer-item">
+                        <h3>节能减排宣传</h3>
+                        <p>组织校园节能减排宣传活动，推广绿色用电理念</p>
+                        <div class="volunteer-info">
+                            <span class="hours">15小时</span>
+                            <span class="date">2024.02</span>
+                        </div>
+                    </div>
+                    <div class="volunteer-item">
+                        <h3>电力安全讲座</h3>
+                        <p>为中小学生讲解电力安全知识</p>
+                        <div class="volunteer-info">
+                            <span class="hours">25小时</span>
+                            <span class="date">2024.01</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h2>志愿统计</h2>
+                <div class="volunteer-stats">
+                    <div class="stat-item">
+                        <span class="number">60</span>
+                        <span class="label">总服务时长(小时)</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="number">3</span>
+                        <span class="label">活动项目数</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="number">200+</span>
+                        <span class="label">服务人次</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/particles-config.js"></script>
+    <script src="../js/volunteer.js"></script>
+</body>
+</html>

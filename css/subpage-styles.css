@@ -1,0 +1,391 @@
+/* 子页面通用样式 */
+.subpage-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.subpage-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.subpage-title {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px var(--primary-color);
+}
+
+.subpage-subtitle {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2rem;
+}
+
+/* 学术学习页面样式 */
+.academic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.course-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--neon-shadow);
+}
+
+.course-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.course-icon {
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 255, 157, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+.course-title {
+    color: var(--primary-color);
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.course-info {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.course-progress {
+    height: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+    height: 100%;
+    background: var(--primary-color);
+    box-shadow: 0 0 10px var(--primary-color);
+    transition: width 1s ease;
+}
+
+/* 项目展示页面样式 */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.project-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-content {
+    padding: 1.5rem;
+}
+
+.project-title {
+    color: var(--primary-color);
+    margin: 0 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+.project-description {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.project-tech {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.tech-tag {
+    background: rgba(0, 255, 157, 0.1);
+    color: var(--primary-color);
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    border: 1px solid var(--primary-color);
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.project-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.project-link:hover {
+    text-shadow: 0 0 8px var(--primary-color);
+}
+
+/* 科研探索页面样式 */
+.research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.research-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.research-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--neon-shadow);
+}
+
+.research-title {
+    color: var(--primary-color);
+    margin: 0 0 1rem;
+    font-size: 1.2rem;
+}
+
+.research-description {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.research-progress {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.progress-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: conic-gradient(var(--primary-color) var(--progress), transparent 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.progress-circle::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--card-bg);
+}
+
+.progress-text {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+
+/* 志愿服务页面样式 */
+.volunteer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.volunteer-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.volunteer-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--neon-shadow);
+}
+
+.volunteer-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.volunteer-icon {
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 255, 157, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+.volunteer-title {
+    color: var(--primary-color);
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.volunteer-date {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+}
+
+.volunteer-description {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.volunteer-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.volunteer-stat {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0.75rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.volunteer-stat .number {
+    display: block;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.volunteer-stat .label {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.8rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .subpage-container {
+        padding: 1rem;
+    }
+
+    .subpage-title {
+        font-size: 2rem;
+    }
+
+    .subpage-subtitle {
+        font-size: 1rem;
+    }
+
+    .academic-grid,
+    .project-grid,
+    .research-grid,
+    .volunteer-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.contact-text {
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    text-shadow: 0 0 10px var(--primary-color);
+    background: rgba(0, 255, 157, 0.1);
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    border: 1px solid var(--primary-color);
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.contact-text:hover {
+    background: rgba(0, 255, 157, 0.2);
+    text-shadow: 0 0 15px var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-icon:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px rgba(0, 255, 157, 0.3);
+    border-color: var(--primary-color);
+}
+
+.social-icon img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0.9);
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover img {
+    filter: brightness(1);
+} 
